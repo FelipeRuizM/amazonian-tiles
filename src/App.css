@@ -1,0 +1,107 @@
+:root {
+  --bg-color: #141221;
+  --main-color: #fd77d7;
+  --caret-color: #dde5ed;
+  --text-color: #dde5ed;
+  --sub-color: #676e8a;
+  --sub-alt-color: #1e1d2f;
+  --error-color: #ff5869;
+}
+
+/* Custom font */
+@font-face {
+  font-family: Yellowtail;
+  src: url('./assets/font/Yellowtail-Regular.ttf');
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100%;
+  margin: 0px auto;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-weight: 400;
+
+  position: relative;
+  background-color: var(--bg-color) !important;
+  color: var(--sub-color) !important;
+  font-family: 'Centra', sans-serif !important;
+}
+
+.App {
+  text-align: center;
+}
+
+@keyframes link-anim {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 0;    
+  }
+}
+
+.link-effect {
+  color: var(--sub-color) !important;
+  text-decoration: none;
+  box-shadow: 0px 0px 0px var(--sub-color);
+  transition: box-shadow .15s ease-in-out;
+}
+
+.link-effect:hover {
+  box-shadow: 0px 2px 0px var(--sub-color);
+}
+
+/* This is for styling the text */
+
+.style-text-main-color {
+  color: var(--main-color) !important;
+}
+
+.style-text-caret-color {
+  color: var(--caret-color) !important;
+}
+
+.style-text-sub-color {
+  color: var(--sub-color) !important;
+}
+
+.style-text-sub-alt-color {
+  color: var(--sub-alt-color) !important;
+}
+
+.style-text-text-color {
+  color: var(--text-color) !important;
+}
+
+/* NAVBAR */
+
+#my-navbar {
+  background-color: var(--bg-color) !important;
+  transition: top 0.3s;
+}
+
+#my-navbar a {
+  color: var(--text-color);
+}
+
+#my-navbar a:hover {
+  color: var(--sub-color);
+}
+
+.navbar-toggler {
+  background-color: var(--sub-color) !important;
+}
+
+#logo-font {
+  font-family: 'Yellowtail', sans-serif !important;
+}
