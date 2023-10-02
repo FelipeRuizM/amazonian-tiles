@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/amazonian-tiles/static/css/main.36a63397.css",
+    "main.js": "/amazonian-tiles/static/js/main.b81ace2a.js",
+    "static/js/787.5463bc19.chunk.js": "/amazonian-tiles/static/js/787.5463bc19.chunk.js",
+    "static/media/CentraNo2-Book.ttf": "/amazonian-tiles/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/Yellowtail-Regular.ttf": "/amazonian-tiles/static/media/Yellowtail-Regular.68015177cbf9575be4a4.ttf",
+    "index.html": "/amazonian-tiles/index.html",
+    "main.36a63397.css.map": "/amazonian-tiles/static/css/main.36a63397.css.map",
+    "main.b81ace2a.js.map": "/amazonian-tiles/static/js/main.b81ace2a.js.map",
+    "787.5463bc19.chunk.js.map": "/amazonian-tiles/static/js/787.5463bc19.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36a63397.css",
+    "static/js/main.b81ace2a.js"
+  ]
+}
