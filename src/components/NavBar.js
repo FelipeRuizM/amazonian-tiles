@@ -13,23 +13,20 @@ export const NavBar = () => {
     } else {
       document.getElementById("my-navbar").style.top = "-50px";
     }
+    document.documentElement.style.setProperty('--nav-height', document.getElementById("my-navbar").offsetHeight);
     prevScrollpos = currentScrollPos;
   }
 
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary fixed-top" id="my-navbar">
+    <Navbar collapseOnSelect expand="lg" className="fixed-top" id="my-navbar">
       <Container>
         <Navbar.Brand href="#home" id='fr-brand'><span id='logo-font'>Amazonian Tiles</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#about">
-              <span className='style-text-sub-color'>1.</span> About</Nav.Link>
-            <Nav.Link href="#projects">
-              <span className='style-text-sub-color'>2.</span> Projects</Nav.Link>
-            <Nav.Link href="#contact">
-              <span className='style-text-sub-color'>3.</span> Contact</Nav.Link>
-          </Nav>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link></Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

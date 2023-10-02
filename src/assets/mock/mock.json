@@ -1,0 +1,20 @@
+[
+  {
+    "image": "images/example1.jpg",
+    "title": "Lorem ipsum dolor sit amet",
+    "subtitle": "Nunc tincidunt orci at tempor aliquam. Ut posuere id metus ut dignissim. Donec ex nisl, malesuada a lobortis et, iaculis auctor nisl. Nulla quis felis vitae dolor elementum porta sit amet sed lacus. Proin ullamcorper, augue nec euismod hendrerit, velit ex commodo quam, in finibus enim sapien eu orci. Proin non orci magna. Duis sodales elementum luctus.",
+    "interval": 3000
+  },
+  {
+    "image": "images/example2.jpg",
+    "title": "Lorem ipsum",
+    "subtitle": "Suspendisse nec sem vel odio molestie molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
+    "interval": 3000
+  },
+  {
+    "image": "images/example3.jpg",
+    "title": "Dolor sit amet",
+    "subtitle": "Aliquam pharetra nibh sit amet felis iaculis, eget eleifend ex bibendum. Etiam at sapien a dolor sagittis lacinia. Sed sed mi et sem posuere eleifend. In elementum velit quis pharetra faucibus. Quisque interdum ipsum augue, in maximus urna tincidunt ut. Suspendisse lacinia, orci nec tincidunt sagittis, arcu neque tristique sem, id aliquam lacus neque vestibulum elit. In ornare risus vitae facilisis luctus.",
+    "interval": 3000
+  }
+]
