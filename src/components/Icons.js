@@ -1,34 +1,46 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { BsFillBugFill } from "react-icons/bs";
+import { 
+  BsFillXDiamondFill, 
+  BsFillHouseHeartFill, 
+  BsFillPersonVcardFill,
+  BsFillPiggyBankFill,
+  BsFillTelephoneInboundFill,
+  BsFillHandThumbsUpFill
+} from "react-icons/bs";
 
 export const Icons = () => {
 
-  const iconExample = <BsFillBugFill style={{fontSize: '7rem'}} />;
+  const iconExample1 = <BsFillXDiamondFill style={{fontSize: '7rem'}} />;
+  const iconExample2 = <BsFillHouseHeartFill style={{fontSize: '7rem'}} />;
+  const iconExample3 = <BsFillPersonVcardFill style={{fontSize: '7rem'}} />;
+  const iconExample4 = <BsFillPiggyBankFill style={{fontSize: '7rem'}} />;
+  const iconExample5 = <BsFillTelephoneInboundFill style={{fontSize: '7rem'}} />;
+  const iconExample6 = <BsFillHandThumbsUpFill style={{fontSize: '7rem'}} />;
 
   const iconsData = [
     {
-      icon: iconExample,
+      icon: iconExample1,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in aliquam ex. Cras rutrum justo et dolor tempus, vel sodales.',
     },
     {
-      icon: iconExample,
+      icon: iconExample2,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in aliquam ex. Cras rutrum justo et dolor tempus, vel sodales.',
     },
     {
-      icon: iconExample,
+      icon: iconExample3,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in aliquam ex. Cras rutrum justo et dolor tempus, vel sodales.',
     },
     {
-      icon: iconExample,
+      icon: iconExample4,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in aliquam ex. Cras rutrum justo et dolor tempus, vel sodales.',
     },
     {
-      icon: iconExample,
+      icon: iconExample5,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in aliquam ex. Cras rutrum justo et dolor tempus, vel sodales.',
     },
     {
-      icon: iconExample,
+      icon: iconExample6,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in aliquam ex. Cras rutrum justo et dolor tempus, vel sodales.',
     },
   ];
