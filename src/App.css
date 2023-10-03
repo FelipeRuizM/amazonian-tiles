@@ -1,9 +1,9 @@
 :root {
-  --bg-color: #141221;
-  --main-color: #fd77d7;
-  --caret-color: #dde5ed;
-  --text-color: #dde5ed;
-  --sub-color: #676e8a;
+  --bg-color: #F6FFF8;
+  --main-color: #A4C3B2;
+  --caret-color: #6B9080;
+  --text-color: #267f5b;
+  --sub-color: #0c422a;
   --sub-alt-color: #1e1d2f;
   --error-color: #ff5869;
   --nav-height: 70px;
@@ -37,7 +37,7 @@ html, body {
 
   position: relative;
   background-color: var(--bg-color) !important;
-  color: var(--sub-color) !important;
+  color: var(--text-color) !important;
   font-family: 'Centra', sans-serif !important;
 }
 
@@ -84,7 +84,7 @@ html, body {
 }
 
 .navbar-toggler {
-  background-color: var(--sub-color) !important;
+  background-color: var(--bg-color) !important;
 }
 
 #logo-font {
@@ -103,4 +103,8 @@ html, body {
   min-height: 70vh;
   background-size: cover;
   background-position: center;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #a8a8a8 !important;
 }

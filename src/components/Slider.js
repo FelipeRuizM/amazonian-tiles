@@ -4,11 +4,12 @@ import React, { useEffect, useState } from 'react';
 export const Slider = ({ slides }) => {
   const [index, setIndex] = useState(0);
 
+  const BACKGROUND_DARKNESS = 0.7;
+
   useEffect(() => {
     let index = 0;
     for (const slide of slides) {
-      console.log(`slide.image = ${slide.image}`);
-      document.getElementById('item-' + index++).style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${slide.image})`;
+      document.getElementById('item-' + index++).style.backgroundImage = `linear-gradient(rgba(0, 0, 0, ${BACKGROUND_DARKNESS}), rgba(0, 0, 0, ${BACKGROUND_DARKNESS})), url(${slide.image})`;
     }
   }, [slides]);
 
