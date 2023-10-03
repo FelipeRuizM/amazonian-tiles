@@ -127,6 +127,7 @@ export const Contact = () => {
                   name="details"
                   value={formData.details}
                   onChange={handleChange}
+                  placeholder='E.g.: I need to replace the tiles on my washroom'
                   required
                 />
               </Form.Group>
