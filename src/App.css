@@ -96,16 +96,11 @@ html, body {
 }
 
 .carousel {
-  min-height: 80vh;
+  min-height: 70vh;
 }
 
 .carousel-item {
-  min-height: 80vh;
+  min-height: 70vh;
   background-size: cover;
   background-position: center;
 }
-
-/* .carousel-image {
-  filter: brightness(30%);
-} */
-
